@@ -1,0 +1,122 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by ImageStu.rc
+//
+#define ID_BUTTON_SAVE                  3
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_ABOUTBOX                    100
+#define IDS_ABOUTBOX                    101
+#define IDD_IMAGESTU_DIALOG             102
+#define IDR_MAINFRAME                   128
+#define IDR_MENU_IMAGE                  129
+#define IDD_DLG_TASK                    129
+#define IDD_DIALOG1                     130
+#define IDD_DLG_SHOW_ARRAY              132
+#define IDC_EDIT_TASK                   1000
+#define IDC_STATIC_POS                  1002
+#define IDC_COMBO_TYPE                  1003
+#define IDC_FILE_OPEN                   32771
+#define IDC_TASE_01                     32772
+#define IDC_PIC_RECT_ORIGIN             32773
+#define IDC_PIC_RECT_SMALL              32774
+#define IDC_PIC_RECT_POISE              32775
+#define IDC_PIC_RECT_SML                32776
+#define IDC_PIC_RECT_GML                32777
+#define IDC_FILE_SHOW_ARRAY             32778
+#define IDC_COLOR_SPACE_RGBTOYUV        32779
+#define IDC_FLOAT_SWITCH                32780
+#define IDC_EDDY_SWITCH                 32781
+#define IDC_HORIZONTAL_MIRROR           32782
+#define IDC_VERTICAL_MIRROR             32783
+#define IDC_Transpose                   32784
+#define IDC_ZOOM                        32785
+#define IDC_ZOOM_BACK                   32786
+#define IDC_ZOOM_NEAREST_NEIGHBOR       32787
+#define IDC_ZOOM_DOUBLE_LINEAR          32788
+#define IDC_DCT_NORMAL                  32789
+#define IDC_DCT_NORMAL_GRAY             32790
+#define IDC_ZOOM_THREE_LINEAR           32791
+#define IDC_GRAY_THRESHOLD              32792
+#define IDC_FILTER_FILED_EVERAGE        32793
+#define IDC_RECURSIVE_CONNECT           32794
+#define IDC_TASE_02                     32795
+#define IDC_CUO_QIE                     32796
+#define IDC_TASK_03                     32797
+#define IDC_ZOOM_FRONT                  32798
+#define IDC_TASK_081008                 32799
+#define IDC_PIC_040302A                 32800
+#define IDC_PIC_040302B                 32801
+#define IDC_PIC_040302C                 32802
+#define IDC_PIC_040302D                 32803
+#define IDC_PIC_040303A                 32804
+#define IDC_PIC_040303B                 32805
+#define IDC_PIC_040303C                 32806
+#define IDC_PIC_040303D                 32807
+#define IDC_TASK_GRAY_MAP               32808
+#define IDC_RECT_POISE                  32809
+#define IDC_TASK_GUIDINHUA              32810
+#define IDC_LINER_FILTER                32811
+#define IDC_NOT_LINEAR_FILTER           32812
+#define IDC_TASK_NOT_LINEAR_FILTER      32813
+#define IDC_LPACTION_NOT_PURPOSE        32814
+#define IDC_LPACTION_PURPOSE            32815
+#define IDC_SOBERT                      32816
+#define IDC_SOBEL                       32817
+#define IDC_TASK_RUIHUA                 32818
+#define IDC_FOUIER                      32819
+#define IDC_TASK_FOUIER                 32820
+#define IDC_GRAY_LEVEL                  32821
+#define IDC_YUV                         32822
+#define IDC_black                       32823
+#define IDC_TEST                        32824
+#define IDC_FILE_SAVE                   32825
+#define IDC_FULL_RED                    32826
+#define IDC_RED_BLUE                    32827
+#define IDC_COLOR_BLACK                 32828
+#define IDC_GRAY_BLACK                  32829
+#define IDC_DIRECT_ZOOM                 32830
+#define IDC_NEAREST_INTERPOLATION       32831
+#define IDC_BILINEAR_INTERPOLATION      32832
+#define IDC_GRAY_ADJUST                 32833
+#define IDC_move                        32834
+#define IDC_Horizontal_mirroring        32835
+#define IDC_Vertical_Mirroring          32836
+#define IDC_Rotating                    32838
+#define IDC_NEGATE                      32839
+#define IDC_LOGARITHM                   32840
+#define IDC_SHIFTING                    32841
+#define IDC_FEN_DUAN                    32843
+#define IDC_WEI_PING_MIAN               32844
+#define IDC_ZHI_FANG                    32845
+#define IDC_LIN_YU                      32846
+#define IDC_JIA_QUAN                    32847
+#define IDC_JUN_ZHI_QUICK               32848
+#define IDC_JIA_QUAN_QUICK              32849
+#define ID_JUN_ZHI_YUZHI                32850
+#define IDC_FEI_XIAN_XING               32851
+#define IDC_FEI_XIAN_XING_X             32852
+#define IDC_lpls                        32854
+#define ID_MENUITEM32855                32855
+#define IDC_ROBERT                      32856
+#define IDC_GRAY_COLOR                  32857
+#define IDC_RGB_HSI_RGB                 32858
+#define IDC_FU_SHI                      32859
+#define IDC_PEN_ZHANG                   32860
+#define IDC_OPEN                        32861
+#define IDC_CLOSE                       32862
+#define IDC_BIAN_JIE                    32863
+#define IDC_TIAN_CHONG                  32864
+#define IDC_LIAN_TONG                   32865
+#define IDC_XI_HUA                      32866
+#define IDC_Huffman                     32867
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        131
+#define _APS_NEXT_COMMAND_VALUE         32868
+#define _APS_NEXT_CONTROL_VALUE         1003
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

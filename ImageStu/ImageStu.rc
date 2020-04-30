@@ -1,0 +1,330 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ImageStu.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ImageStu.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ImageStu"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ImageStu 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_IMAGESTU_DIALOG DIALOGEX 0, 0, 621, 422
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "图像处理实验学生平台"
+MENU IDR_MENU_IMAGE
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "退出",IDOK,571,408,50,14
+END
+
+IDD_DLG_SHOW_ARRAY DIALOG DISCARDABLE  0, 0, 425, 312
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "显示数组中的图像"
+FONT 10, "System"
+BEGIN
+    LTEXT           "颜色通道",IDC_STATIC,2,6,17,17
+    COMBOBOX        IDC_COMBO_TYPE,24,8,66,65,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "退出",IDCANCEL,135,7,34,13
+    PUSHBUTTON      "保存",ID_BUTTON_SAVE,94,7,34,13
+    GROUPBOX        "按钮位置",IDC_STATIC_POS,0,0,176,24,NOT WS_VISIBLE
+END
+
+IDD_DLG_TASK DIALOG DISCARDABLE  0, 0, 327, 191
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "实验任务"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,277,177,50,14
+    EDITTEXT        IDC_EDIT_TASK,0,5,327,160,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,130,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,130,24,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ImageStu Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ImageStu\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ImageStu.EXE\0"
+            VALUE "ProductName", "ImageStu 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_IMAGE MENU DISCARDABLE 
+BEGIN
+    POPUP "文件"
+    BEGIN
+        MENUITEM "打开",                        IDC_FILE_OPEN
+        MENUITEM "保存",                        IDC_FILE_SAVE
+        MENUITEM "显示数组图像",                IDC_FILE_SHOW_ARRAY
+        MENUITEM "退出",                        IDOK
+        MENUITEM "测试",                        IDC_TEST
+    END
+    POPUP "实验一"
+    BEGIN
+        MENUITEM "全红图像",                    IDC_FULL_RED
+        MENUITEM "红蓝交替图像",                IDC_RED_BLUE
+        MENUITEM "彩色->灰度",                  IDC_COLOR_BLACK
+        MENUITEM "灰度->黑白",                  IDC_GRAY_BLACK
+    END
+    POPUP "实验二"
+    BEGIN
+        MENUITEM "灰度级分辨率调整",            IDC_GRAY_ADJUST
+        MENUITEM "直接缩放",                    IDC_DIRECT_ZOOM
+        MENUITEM "最近邻插值",                  IDC_NEAREST_INTERPOLATION
+        MENUITEM "双线性插值",                  IDC_BILINEAR_INTERPOLATION
+        MENUITEM "平移",                        IDC_move
+        MENUITEM "水平镜像",                    IDC_Horizontal_mirroring
+        MENUITEM "垂直镜像",                    IDC_Vertical_Mirroring
+        MENUITEM "转置",                        IDC_Transpose
+        MENUITEM "旋转",                        IDC_Rotating
+    END
+    POPUP "实验三"
+    BEGIN
+        MENUITEM "图像反转",                    IDC_NEGATE
+        MENUITEM "对数变换",                    IDC_LOGARITHM
+        MENUITEM "冥律变换",                    IDC_SHIFTING
+        MENUITEM "分段线性变换",                IDC_FEN_DUAN
+        MENUITEM "位平面",                      IDC_WEI_PING_MIAN
+        MENUITEM "直方图均衡化",                IDC_ZHI_FANG
+    END
+    POPUP "实验四"
+    BEGIN
+        MENUITEM "邻域均值滤波",                IDC_LIN_YU
+        MENUITEM "邻域加权滤波",                IDC_JIA_QUAN
+        MENUITEM "邻域均值滤波_快速",           IDC_JUN_ZHI_QUICK
+        MENUITEM "邻域加权滤波_快速",           IDC_JIA_QUAN_QUICK
+        MENUITEM "邻域均值滤波_阈值",           ID_JUN_ZHI_YUZHI
+    END
+    POPUP "实验五"
+    BEGIN
+        MENUITEM "非线性滤波_十字叉形",         IDC_FEI_XIAN_XING
+        MENUITEM "非线性滤波_X形",              IDC_FEI_XIAN_XING_X
+        MENUITEM "锐化_拉普拉斯",               IDC_lpls
+        MENUITEM "锐化_Robert",                 IDC_ROBERT
+        MENUITEM "锐化_Sobel",                  IDC_SOBEL
+    END
+    POPUP "实验六"
+    BEGIN
+        MENUITEM "灰度图转彩色图",              IDC_GRAY_COLOR
+        MENUITEM "RGB->HSI->RGB",               IDC_RGB_HSI_RGB
+    END
+    POPUP "实验七"
+    BEGIN
+        MENUITEM "腐蚀",                        IDC_FU_SHI
+        MENUITEM "膨胀",                        IDC_PEN_ZHANG
+        MENUITEM "开操作",                      IDC_OPEN
+        MENUITEM "闭操作",                      IDC_CLOSE
+        MENUITEM "边界",                        IDC_BIAN_JIE
+        MENUITEM "填充",                        IDC_TIAN_CHONG
+        MENUITEM "连通",                        IDC_LIAN_TONG
+        MENUITEM "细化",                        IDC_XI_HUA
+    END
+    POPUP "实验八"
+    BEGIN
+        MENUITEM "霍夫曼编码",                  IDC_Huffman
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 ImageStu(&A)..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_PIC_040302A         "教材P88图4.3.2(a)"
+    IDC_PIC_040302B         "教材P88图4.3.2(b)"
+    IDC_PIC_040302C         "教材P88图4.3.2(c)"
+    IDC_PIC_040302D         "教材P88图4.3.2(d)"
+    IDC_PIC_040303A         "教材P88图4.3.3(c)"
+    IDC_PIC_040303B         "教材P88图4.3.3(b)"
+    IDC_PIC_040303C         "动态范围压缩"
+    IDC_PIC_040303D         "教材P88图4.3.3(d)"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ImageStu.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
